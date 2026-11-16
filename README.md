@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Worriers Kyanja</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#fffaf0}
+header{position:fixed;top:0;width:100%;background:rgba(255,247,232,0.95);padding:14px 5%;display:flex;justify-content:space-between;align-items:center;z-index:1000}
+.logo{font-weight:800;font-size:20px;color:#e63946;line-height:1.1}.logo span{color:#1d3557}
+.btn{background:#e63946;color:#fff;padding:12px 28px;border-radius:10px;text-decoration:none;font-weight:700;border:none;cursor:pointer;display:inline-block}
+.hero{display:flex;min-height:100vh;padding-top:60px}
+.hero-left{flex:1;background:#fff7e8;padding:50px 5%;display:flex;flex-direction:column;justify-content:center}
+.hero-left h1{font-size:46px;color:#1d3557;line-height:1.05}.hero-left h1 span{color:#e63946}
+.hero-right{flex:1.1;background:#111}.hero-right img{width:100%;height:100%;object-fit:cover;object-position:top}
+.section{padding:70px 5%}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px;margin-top:25px}.grid img{width:100%;height:400px;object-fit:cover;border-radius:20px}
+.contact{background:#1d3557;color:white;text-align:center}.contact form{max-width:520px;margin:30px auto;background:white;padding:30px;border-radius:20px;text-align:left}
+.contact input,.contact textarea{width:100%;padding:14px;margin:8px 0;border:1px solid #ddd;border-radius:10px;color:#222}
+.contact label{color:#1d3557;font-weight:600;font-size:13px;margin-top:8px;display:block}
+@media(max-width:900px){.hero{flex-direction:column-reverse}.hero-right{height:550px}.hero-left h1{font-size:32px}}
+</style>
+</head>
+<body>
+<header><div class="logo">🍔 FOOD WORRIERS<br><span>KYANJA</span></div><a href="#contact" class="btn" style="padding:8px 18px">Order</a></header>
+<section class="hero"><div class="hero-left"><h1>Food Worriers <span>Kyanja</span></h1><p style="color:#e63946;font-weight:700;margin:8px 0">📍 KYANJA, KAMPALA</p><p style="color:#555;margin:15px 0">I'm Iman Davy - Founder. Fresh Rolex, Burgers, Pilau. People can send messages to us directly!</p><a href="#contact" class="btn">Send Message to Kyanja 💬</a></div><div class="hero-right"><img src="1.jpg" alt="Founder"></div></section>
+<section class="section"><h2 style="text-align:center;font-size:34px;color:#1d3557">Kyanja Gallery</h2><div class="grid"><img src="5.jpg"><img src="6.jpg"><img src="3.jpg"><img src="7.jpg"><img src="2.jpg"><img src="4.jpg"></div></section>
+<section class="section contact" id="contact"><h2 style="font-size:32px">Send Message to Food Worriers Kyanja</h2><p style="color:#cbd5e1">Goes to markmaron2343@gmail.com</p>
+<form action="https://formsubmit.co/markmaron2343@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="KYANJA ORDER">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://markmaron2343.github.io/Food-Worriers-kyanja-/thanks.html">
+<label>Name</label><input type="text" name="name" required>
+<label>Email</label><input type="email" name="email" required>
+<label>Phone</label><input type="text" name="phone" required>
+<label>Message</label><textarea name="message" rows="5" required></textarea>
+<button type="submit" class="btn" style="width:100%;margin-top:15px">📨 SEND TO KYANJA</button>
+</form></section>
+<footer style="background:#0f1e3a;color:#889;padding:25px;text-align:center">© 2026 FOOD WORRIERS KYANJA • Iman Davy • markmaron2343@gmail.com</footer>
+</body>
+</html>
